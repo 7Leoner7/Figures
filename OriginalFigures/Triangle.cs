@@ -25,7 +25,7 @@
         protected bool IsTriangle()
         {
             double square = SquareCalc();
-            return !((square == double.NaN)||(square == 0));
+            return !((double.IsNaN(square)) || (square == 0));
         }
 
         public bool IsRectangular()
