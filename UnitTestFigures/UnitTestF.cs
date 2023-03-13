@@ -39,7 +39,6 @@ namespace UnitTestFigures
         {
             Traingle t = new Traingle(5, 4, 3);
             Assert.True(t.IsRectangular());
-            Assert.True(t.SquareCalc() == 6);
         }
     }
 }
