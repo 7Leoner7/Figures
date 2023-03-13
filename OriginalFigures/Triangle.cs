@@ -22,7 +22,7 @@
                 throw new ArgumentException("This is not a triangle!");
         }
 
-        public bool IsTriangle()
+        protected bool IsTriangle()
         {
             double square = SquareCalc();
             return !((square == double.NaN)||(square == 0));
